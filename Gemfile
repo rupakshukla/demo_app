@@ -16,7 +16,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
- #gem 'pg', '0.15.1'
+ gem 'pg', '0.15.1'
  gem 'pg'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -43,6 +43,6 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 group :production do
- 
+ gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
